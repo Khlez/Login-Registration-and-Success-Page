@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&display=swap");
+
+:root {
+  --neon-blue: #0900ff;
+  --black: #010203;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "BioRhyme", serif;
+}
+
+body {
+  background: linear-gradient(to right, #090979, #0483c9);
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  font-size: 0.8rem;
+}
+
+a:hover {
+  color: grey;
+}
+
+/*login page--- */
+.main-content1 {
+  width: 50vw;
+  max-width: 300px;
+  min-width: 300px;
+  margin-top: 5em;
+  margin-inline: auto;
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.fa-user {
+  color: var(--neon-blue);
+}
+
+.login-h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.login-p {
+  font-size: 0.8rem;
+  color: var(--black);
+}
+
+.login-page {
+  margin-top: 1em;
+}
+
+label {
+  display: block;
+  margin: auto;
+  text-decoration: none;
+  color: var(--black);
+  margin: 0.5em 0;
+  font-size: 0.8rem;
+}
+
+input {
+  width: 22em;
+  height: 2.2em;
+  border-radius: 5px;
+  border: 1px solid var(--black);
+}
+
+.fpassword {
+  float: right;
+  font-size: 0.8rem;
+  color: var(--black);
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.fpassword:hover {
+  color: var(--neon-blue);
+  cursor: pointer;
+}
+
+.login-button {
+  display: block;
+  width: 22em;
+  padding-block: 0.5em;
+  background-color: var(--neon-blue);
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #130e91;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+}
+
+.detail {
+  margin-top: 1em;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.fa-brands {
+  padding-top: 0.5em;
+  color: var(--neon-blue);
+}
+
+/*success page--- */
+
+.fa-circle-check {
+  color: var(--neon-blue);
+  padding-bottom: 0.3em;
+}
+
+.success {
+  width: 30%;
+  max-width: 400px;
+  min-width: 300px;
+  margin: 10em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.success-h1 {
+  font-size: 1rem;
+  padding-bottom: 0.3em;
+}
+
+.success-p {
+  width: 320px;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 0.8rem;
+}
+
+.success-button {
+  margin-top: 1em;
+  width: 15em;
+  text-align: center;
+  background-color: var(--neon-blue);
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  color: white;
+  padding: 0.5em;
+}
+
+.success-button:hover {
+  background-color: #130e91;
+  color: white;
+  cursor: pointer;
+}
+
+
+/*registration page--- */
+
+
+.reg-page {
+  width: 70vw;
+  margin-inline: auto;
+  margin-top: 4em;
+  max-width: 400px;
+  min-width: 400px;
+}
+
+.reg-page h1 {
+  text-align: center;
+  background-color: #083496;
+  color: white;
+  padding: 1em;
+  font-size: 1.4rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: 800;
+}
+
+.reg-fieldset {
+  border: none;
+  background-color: white;
+  border-bottom: 3px solid #083496;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.reg-page input {
+  display: block;
+  padding: 0.6em;
+  margin: 0.5em;
+  width: 23em;
+}
+
+.reg-fieldset:last-of-type {
+  border-bottom: none;
+}
+
+.reg-fieldset2 {
+  border: none;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1em;
+}
+
+.reg-fieldset2 select {
+  margin-left: 0.4em;
+  min-height: 2em;
+  border-radius: 5px;
+}
+
+.reg-form {
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.stress {
+  display: flex;
+  padding-bottom: 0.5em;
+}
+
+.stress button {
+  padding: 1em;
+  background-color: #090979;
+  color: white;
+  border: none;
+  padding-inline: 5em;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.stress button:hover {
+  background-color: var(--neon-blue);
+}
